@@ -162,45 +162,30 @@ The analysis identifies several notable patterns in the dataset:
 # 🗂️ Repository Structure
 
 ```text
-Starbucks-Beverage-Analytics/
+Starbucks-Analytics/
 │
 ├── README.md
 │
-├── Dashboard/
-│   └── Starbucks_Analytics.pbix
-│
-├── Dataset/
-│   ├── Starbucks_Beverages.csv
-│   └── Starbucks_Directory.xlsx
+├── Starbucks_Analytics.pbix
+│  
+├── Data/
+│   ├── directory.csv
+│   └── starbucks.csv
 │
 ├── Dashboard Images/
-│   ├── Dashboard_Overview.png
-│   ├── Nutrition_Analysis.png
-│   └── Global_Store_Analysis.png
+│   ├── Dashboardpage_01.png
+│   ├── Dashboardpage_02.png
+│   └── Dashboardpage_03.png
 │
-├── Documentation/
-│   ├── Project_Report.pdf
-│   ├── Business_Requirements.pdf
-│   └── Dashboard_Walkthrough.pdf
+├── SQL/
+│   ├── 01_schema.sql
+│   ├── 02_nutrition_dashboard.sql
+│   └── 03_footprint_dashboard.sql
+|   └── 04_advanced_analytics.sql
+|   └── 05_data_quality.sql
 │
-└── .gitignore
+└── Images
 ```
-
----
-
-# 🧹 Data Preparation
-
-The data preparation process included:
-
-* Handling missing values
-* Checking duplicate records
-* Standardizing categorical fields
-* Validating numerical columns
-* Correcting data types
-* Creating analytical columns
-* Preparing data for Power BI modeling
-
-Power Query was used for the primary transformation workflow.
 
 ---
 
@@ -253,9 +238,5 @@ Aspiring **Data Analyst | Power BI | SQL | Python**
 Interested in transforming raw data into meaningful business insights through **SQL, Python, Power BI, data visualization, and analytical storytelling**.
 
 ---
-
-## ⭐ Project Highlights
-
-**Power BI • Power Query • DAX • Data Cleaning • Data Modeling • EDA • Business Intelligence • Data Visualization**
 
 If you find this project useful, feel free to ⭐ **star the repository**.
