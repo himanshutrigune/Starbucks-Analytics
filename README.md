@@ -148,17 +148,6 @@ The dashboard includes interactive controls such as:
 Users can combine multiple filters to perform focused analysis.
 
 ---
-
-# 📸 Dashboard Preview
-
-### Executive Dashboard
-
-![Starbucks Dashboard](Dashboard%20Images/Starbucks_Dashboard.png)
-
-> Place your dashboard screenshots inside the `Dashboard Images` folder and update the filename above if required.
-
----
-
 # 💡 Key Insights
 
 The analysis identifies several notable patterns in the dataset:
@@ -168,34 +157,8 @@ The analysis identifies several notable patterns in the dataset:
 * Sugar content varies considerably between beverage categories.
 * Starbucks store presence is concentrated in a limited number of major markets.
 * Beverage preparation type can materially change the nutritional profile of a product.
-* Interactive filtering makes it possible to compare individual beverages and categories more effectively.
-
-> **Note:** Exact KPI values and conclusions should be updated if the underlying dataset or dashboard calculations change.
 
 ---
-
-# 📐 Example DAX Measures
-
-Example analytical measures used in the dashboard include:
-
-```DAX
-Total Beverage Types =
-DISTINCTCOUNT(Beverages[Beverage])
-
-Average Calories =
-AVERAGE(Beverages[Calories])
-
-Average Sugar =
-AVERAGE(Beverages[Sugar])
-
-Average Caffeine =
-AVERAGE(Beverages[Caffeine])
-```
-
-Additional measures can be added depending on the final dashboard requirements.
-
----
-
 # 🗂️ Repository Structure
 
 ```text
@@ -245,47 +208,24 @@ Power Query was used for the primary transformation workflow.
 
 The project demonstrates practical Power BI modeling and DAX concepts, including:
 
-* Measures
-* Calculated columns
-* Aggregations
-* KPI calculations
-* Filtering
-* Category-level analysis
-* Interactive slicers
+📊 Data Visualization
 
+📈 Business Intelligence
+
+🧮 DAX Calculations
+
+⚡ Power Query (ETL)
+
+🗄 Data Modeling
+
+📉 KPI Development
+
+📖 Data Storytelling
+
+🎯 Dashboard Design
+
+📊 Analytical Thinking
 The goal was to keep calculations inside the BI layer wherever appropriate rather than relying entirely on manually prepared results.
-
----
-
-# 📈 Analytical Skills Demonstrated
-
-### Data Analytics
-
-* Exploratory Data Analysis
-* Data Cleaning
-* Data Transformation
-* Descriptive Analysis
-* Trend & Category Analysis
-* Business Question Formulation
-
-### Power BI
-
-* Power Query
-* DAX
-* Data Modeling
-* KPI Cards
-* Slicers
-* Interactive Visualizations
-* Dashboard Design
-* Drill-down / filtering
-
-### Business Intelligence
-
-* Requirement-oriented analysis
-* Business question mapping
-* Insight generation
-* Data storytelling
-* Executive reporting
 
 ---
 
@@ -301,30 +241,6 @@ The goal was to keep calculations inside the BI layer wherever appropriate rathe
 | How are beverages distributed?                   | Category distribution            |
 | How does preparation affect nutrition?           | Preparation-level comparison     |
 | How does protein vary?                           | Protein analysis                 |
-
----
-
-# 🎯 Project Outcome
-
-This project demonstrates an end-to-end **Power BI analytics workflow**, starting from raw datasets and progressing through:
-
-**Data Preparation → Transformation → Modeling → DAX → Visualization → Insights**
-
-It showcases the ability to convert structured datasets into an interactive analytical product suitable for portfolio and interview demonstration.
-
----
-
-# 🚀 Future Enhancements
-
-Potential improvements include:
-
-* Adding time-series Starbucks store expansion data
-* Adding more advanced DAX calculations
-* Creating a dedicated customer-segmentation analysis
-* Adding Python-based EDA
-* Automating dataset refresh
-* Adding a more detailed geographic analysis
-* Publishing the dashboard through Power BI Service
 
 ---
 
